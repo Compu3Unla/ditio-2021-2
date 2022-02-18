@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario contacto</title>
+<link href="estilos-ditio.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+        <a href="index.html"> <img id= "logo" src="img/logo.png" width="110" height="48" alt="logo"/></a>
+        <nav id="botonera"> 
+            <ul>
+            	<li><a href="index.html#queesditio" >¿QUÉ ES DITIO?</a> </li>
+				<li><a href="paso1.html">CARRERAS DE DISEÑO</a> </li>
+				<li><a href="paso2.html">UNIVERSIDADES</a> </li>
+            	<li><a href="formulario.html">TEST VOCACIONAL</a> </li>
+            </ul>     
+        </nav>
+    </header>
+	<main class="home2">
+            <img class="imagenestudiante" src="img/chico formulario contacto.png" width="800" height="600" alt=""/> 
+            <img class="lineasanimadas" src="img/lineas animation.png" width="100" height="400" alt=""/> 
+		<section>
+		  <h1 class="contato">Contacto</h1>
+		  <form method="post" action="mailito:hakuestudio@hotmail.com?subjet=Universidades de diseño"  target="_blank" enctype="text/plain">
+		    <p>
+		      <label for="camponombre">* Nombre:</label>
+		      <input type="text" name="nombre" id="camponombre" placeholder="Nombre">
+		      </p>
+		    <p>
+		      <label for="email">* Email:</label>
+		      <input type="email" name="email" id="email" required>
+		      </p>
+		    <p>
+		      <label for="ciudad">Ciudad:</label>
+		      <input type="ciudad" name="ciudad" id="ciudad">
+		      </p>
+		    <p>
+		      <label for="provincia">Provincia:</label>
+		      <input type="provincia" name="provincia" id="provincia">
+		      </p>
+		    <p>
+		      <label for="tel">Teléfono:</label>
+		      <input type="tel" name="tel" id="tel">
+		      </p>
+		    <p>
+		      <label for="comentario">Comentarios:</label>
+		      <textarea id="comentario" name="areatexto" rows="8" cols="80"></textarea>
+		      </p>
+		    <p>
+		      <input type="reset" value="borrar">
+		      <input type="submit" value="Enviar" formenctype="text/plain">
+		      </p>
+		    </form>
+	  </section>
+	</main>
+	<footer>
+        <section id="redes">
+			<a href="https://twitter.com/?lang=es" target="_blank"><img src= "img/instagram1.png" width="25" height="25" alt="instagram"/> </a>
+			<a href="https://www.instagram.com/?hl=es" target="_blank"><img src= "img/twitter1.png" width="26" height="21" alt="twitter"/> </a>
+		</section>
+      <nav> 
+        <ul class="botonera2">
+                <li><a href="#">Preguntas frecuentes</a> </li>
+                <li><a href="#">Nosotros</a> </li>
+                <li><a href="formulario.html">Contactos</a> </li>
+                <li><a href="#botonera">Inicio</a> </li>
+        </ul>     
+      </nav>
+        <article id="firma">
+          <p> DITIO 2021</p>
+          <p> Todos los derechos reservados</p>
+        </article>
+</footer>
+</body>
+</html>
