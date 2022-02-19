@@ -1,5 +1,5 @@
 # Grupo Ditio 2021 2do cuatrimestre
-Equipo con temática "ocio y recreación" que desarrolló una red social para ilustradores de comics nacionales donde pueden subir compartir sus obras, y además ver los trabajos de los autores más renombrados de la historia a nivel nacional.
+Equipo con temática "educación" que desarrolló un sitio donde se reunen todos los centros universitarios a nivel nacional que dicten carreras relacionadas al diseño, un pequeño test vocacional para saber cuál carrera tendría más afinidad, e información sobre la diversidad de campos en los que el diseño se desarrolla.
 
 ## Integrantes
 * Balasso, Sofía
